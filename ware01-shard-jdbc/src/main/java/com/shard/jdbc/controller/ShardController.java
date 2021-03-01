@@ -42,7 +42,8 @@ public class ShardController {
      */
     @RequestMapping("/selectOneByPhone/{phone}")
     public TableOne selectOneByPhone (@PathVariable("phone") String phone){
-        return shardService.selectOneByPhone(phone);
+        TableOne tableOne = shardService.selectOneByPhone(phone);
+        return tableOne;
     }
     /**
      * 5、查询表 table_one 数据
