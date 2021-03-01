@@ -1,100 +1,39 @@
-# Eclipse, ctags, Mac metadata, log files
-.classpath
-.project
-.settings
-tags
-.DS_Store
+# Compiled class file
+*.class
+
+# Log file
 *.log
-*.orig
 
-# Created by .ignore support plugin (hsz.mobi)
+# BlueJ files
+*.ctxt
 
-.gradle
-local.properties
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
-# General build files
-**/build/*
+# Package Files #
 
-lib/dokka.jar
-lib/quasar.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+target/**
+**/target/**
+build/**
 
-**/logs/*
+.idea/**
+*/.idea/**
+.gradle/**
+out/**
 
-### JetBrains template
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
 
 *.iml
 
-## Directory-based project format:
-/gradle-plugins/.idea/
+.DS_Store
 
-# Include the -parameters compiler option by default in IntelliJ required for serialization.
-!.idea/compiler.xml
+application-local.yml
 
-# if you remove the above rule, at least ignore the following:
 
-# User-specific stuff:
-# .idea/workspace.xml
-# .idea/tasks.xml
-
-# Sensitive or high-churn files:
-# .idea/dataSources.ids
-# .idea/dataSources.xml
-# .idea/sqlDataSources.xml
-# .idea/dynamic.xml
-# .idea/uiDesigner.xml
-
-# Gradle:
-# .idea/gradle.xml
-# .idea/libraries
-/gradle-plugins/gradle*
-
-# Mongo Explorer plugin:
-# .idea/mongoSettings.xml
-
-## File-based project format:
-*.ipr
-*.iws
-
-## Plugin-specific files:
-
-# IntelliJ
-**/out/
-/classes/
-
-# mpeltonen/sbt-idea plugin
-.idea_modules/
-
-# JIRA plugin
-atlassian-ide-plugin.xml
-
-# Crashlytics plugin (for Android Studio and IntelliJ)
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-
-# docs related
-docs/virtualenv/
-
-# bft-smart
-**/config/currentView
-
-# vim
-*.swp
-*.swn
-*.swo
-
-# Files you may find useful to have in your working directory.
-PLAN
-NOTES
-TODO
-compiler.xml
-test.java
-
-**/target/*
-
-.idea
-.ideaDataSources
-
-project-dependencies.dot
-project-dependencies.png
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
