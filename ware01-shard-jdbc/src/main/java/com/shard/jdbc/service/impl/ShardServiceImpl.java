@@ -51,7 +51,7 @@ public class ShardServiceImpl implements ShardService {
 
     @Override
     public void insertOne() {
-        for (int i = 0 ; i < 10000 ; i++){
+        for (int i = 0 ; i < 1000 ; i++){
             TableOne tableOne = new TableOne() ;
             tableOne.setPhone("phone"+i);
             tableOne.setBackOne("back_one"+i);
@@ -63,7 +63,7 @@ public class ShardServiceImpl implements ShardService {
 
     @Override
     public void insertTwo() {
-        for (int i = 0 ; i < 10000 ; i++){
+        for (int i = 0 ; i < 1000 ; i++){
             TableTwo tableTwo = new TableTwo() ;
             tableTwo.setPhone("phone"+i);
             tableTwo.setBackOne("back_one_"+i);
