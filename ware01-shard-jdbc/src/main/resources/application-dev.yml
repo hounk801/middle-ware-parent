@@ -5,9 +5,9 @@ spring:
       type: com.alibaba.druid.pool.DruidDataSource
       druid:
         driverClassName: com.mysql.jdbc.Driver
-        url: jdbc:mysql://localhost:3306/shard_one?useUnicode=true&characterEncoding=UTF8&zeroDateTimeBehavior=convertToNull&useSSL=false
+        url: jdbc:mysql://localhost:3306/shard_one?useUnicode=true&CharSet=utf8mb4&characterEncoding=utf8&characterSetResults=utf8&autoReconnect=true&autoReconnectForPools=true&rewriteBatchedStatements=true&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai
         username: root
-        password: 123
+        password: Canaan@123
         initial-size: 10
         max-active: 100
         min-idle: 10
@@ -28,9 +28,9 @@ spring:
       type: com.alibaba.druid.pool.DruidDataSource
       druid:
         driverClassName: com.mysql.jdbc.Driver
-        url: jdbc:mysql://localhost:3306/shard_two?useUnicode=true&characterEncoding=UTF8&zeroDateTimeBehavior=convertToNull&useSSL=false
+        url: jdbc:mysql://localhost:3306/shard_two?useUnicode=true&CharSet=utf8mb4&characterEncoding=utf8&characterSetResults=utf8&autoReconnect=true&autoReconnectForPools=true&rewriteBatchedStatements=true&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai
         username: root
-        password: 123
+        password: Canaan@123
         initial-size: 10
         max-active: 100
         min-idle: 10
@@ -51,9 +51,9 @@ spring:
       type: com.alibaba.druid.pool.DruidDataSource
       druid:
         driverClassName: com.mysql.jdbc.Driver
-        url: jdbc:mysql://localhost:3306/shard_three?useUnicode=true&characterEncoding=UTF8&zeroDateTimeBehavior=convertToNull&useSSL=false
+        url: jdbc:mysql://localhost:3306/shard_three?useUnicode=true&CharSet=utf8mb4&characterEncoding=utf8&characterSetResults=utf8&autoReconnect=true&autoReconnectForPools=true&rewriteBatchedStatements=true&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai
         username: root
-        password: 123
+        password: Canaan@123
         initial-size: 10
         max-active: 100
         min-idle: 10
