@@ -19,10 +19,11 @@
 *.tar.gz
 *.rar
 target/**
-*/target/**
+**/target/**
 build/**
 
 .idea/**
+*/.idea/**
 .gradle/**
 out/**
 
