@@ -4,7 +4,7 @@ spring:
     dataOne:
       type: com.alibaba.druid.pool.DruidDataSource
       druid:
-        driverClassName: com.mysql.jdbc.Driver
+        driverClassName: com.mysql.cj.jdbc.Driver
         url: jdbc:mysql://localhost:3306/shard_one?useUnicode=true&CharSet=utf8mb4&characterEncoding=utf8&characterSetResults=utf8&autoReconnect=true&autoReconnectForPools=true&rewriteBatchedStatements=true&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai
         username: root
         password: Canaan@123
@@ -27,7 +27,7 @@ spring:
     dataTwo:
       type: com.alibaba.druid.pool.DruidDataSource
       druid:
-        driverClassName: com.mysql.jdbc.Driver
+        driverClassName: com.mysql.cj.jdbc.Driver
         url: jdbc:mysql://localhost:3306/shard_two?useUnicode=true&CharSet=utf8mb4&characterEncoding=utf8&characterSetResults=utf8&autoReconnect=true&autoReconnectForPools=true&rewriteBatchedStatements=true&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai
         username: root
         password: Canaan@123
@@ -50,7 +50,7 @@ spring:
     dataThree:
       type: com.alibaba.druid.pool.DruidDataSource
       druid:
-        driverClassName: com.mysql.jdbc.Driver
+        driverClassName: com.mysql.cj.jdbc.Driver
         url: jdbc:mysql://localhost:3306/shard_three?useUnicode=true&CharSet=utf8mb4&characterEncoding=utf8&characterSetResults=utf8&autoReconnect=true&autoReconnectForPools=true&rewriteBatchedStatements=true&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai
         username: root
         password: Canaan@123
